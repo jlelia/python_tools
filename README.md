@@ -25,4 +25,4 @@ Below is a list of the scripts with brief descriptions. I put ⭐ next to the sc
 
 [WebP Rotator](scripts/webp_rotator.py): rotates WebPs in a directory a specified number of degrees
 
-You'll find they're varying levels of quality because I wrote some of these right as I started learning Python, some a year after that, and some I vibecoded (I'm looking at you, QR code generators!)
+You'll find they're varying levels of quality because I wrote some of these right as I started learning Python, some a year after that, and some with AI (I'm looking at you, QR code generators!)
