@@ -23,4 +23,4 @@ Below is a list of the scripts with brief descriptions. I put ⭐ next to the sc
 
 [TIFF Compression Checker](scripts/tiff_compression_check.py): checks all TIFFs in an array for compression algorithms compatible with CellProfiler
 
-[WebP Rotator](scripts/webp_rotator.py): rotates WEBPs a specified number of degrees
+[WebP Rotator](scripts/webp_rotator.py): rotates WebPs a specified number of degrees
