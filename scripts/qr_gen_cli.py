@@ -8,7 +8,7 @@ Features
 - Optional frame with label (top/bottom), adjustable padding and colors
 
 Usage (CLI)
-  python qrGenerator.py --text "https://example.com" --out qr.png \
+  python qr_gen_cli.py --text "https://example.com" --out qr.png \
 	--style rounded-continuous --gradient rainbow --label "Example" --frame
 
 Note
@@ -20,7 +20,6 @@ from __future__ import annotations
 
 import argparse
 import colorsys
-import math
 from dataclasses import dataclass
 from typing import Iterable, List, Sequence, Tuple
 

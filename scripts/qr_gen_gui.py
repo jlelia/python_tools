@@ -18,7 +18,7 @@ try:
     import qr_gen_cli as core
 except Exception as e:
     # Avoid messagebox before Tk root exists
-    raise RuntimeError(f"Could not import qrGenerator.py in the same folder.\n{e}")
+    raise RuntimeError(f"Could not import qr_gen_cli.py from the same directory.\n{e}")
 
 from PIL import Image, ImageTk
 
