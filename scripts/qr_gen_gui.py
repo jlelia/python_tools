@@ -1,7 +1,7 @@
 """
 Tkinter GUI for the stylized QR generator.
 - Live preview as you type or tweak options
-- All options from qrGenerator: styles, gradients (incl. rainbow), frame+label
+- All options from qr_gen_cli.py: styles, gradients (incl. rainbow), frame+label
 
 Requirements: pillow, qrcode. Optional: a TTF font for labels.
 """
@@ -15,7 +15,7 @@ from tkinter import ttk, colorchooser, filedialog, messagebox
 
 # Import local core next to this file
 try:
-    import qrGenerator as core
+    import qr_gen_cli as core
 except Exception as e:
     # Avoid messagebox before Tk root exists
     raise RuntimeError(f"Could not import qrGenerator.py in the same folder.\n{e}")
