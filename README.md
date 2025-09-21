@@ -15,9 +15,9 @@ Below is a list of the scripts with brief descriptions. I put ⭐ next to the sc
 
 [PDF Rotator](scripts/pdf_rotator.py): rotates PDFs a specified number of degrees
 
-[CLI QR Code Generator](scripts/qr_gen_cli.py): creates custom QR code images with color gradients, frames, fun shapes, etc.
+[CLI QR Code Generator](scripts/qr_gen_cli.py) ⭐: creates custom QR code images with color gradients, frames, fun shapes, etc.
 
-[GUI QR Code Generator](scripts/qr_gen_gui.py) ⭐: uses a GUI with live viewing of the output to create custom QR code images with color gradients, frames, fun shapes, etc.
+[GUI QR Code Generator](scripts/qr_gen_gui.py) ⭐: GUI wrapper for `scripts/qr_gen_cli.py` with live viewing
 
 [Image Reformatter](scripts/reformat_images.py) ⭐: changes image file format (e.g. .png -> .webp) with a single-file and directory/recursive modes. Works for JPEG, PNG, GIF, TIFF, BMP, WEBP.
 
