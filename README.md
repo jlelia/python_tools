@@ -26,3 +26,8 @@ Below is a list of the scripts with brief descriptions. I put ⭐ next to the sc
 [WebP Rotator](scripts/webp_rotator.py): rotates WebPs in a directory a specified number of degrees
 
 You'll find they're varying levels of quality because I wrote some of these right as I started learning Python, some a year after that, and some with AI (I'm looking at you, QR code generators!)
+
+## Dependencies
+The provided [requirements](requirements.txt) (pip) or [environment](environment.yml) should work for all scripts in this repo.
+
+With how basic the packages/scripts are, I expect a lot of flexibility in version control, including Python 3.x, but I have not tested outside of the provided versions.
