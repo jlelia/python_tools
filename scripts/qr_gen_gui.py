@@ -3,7 +3,7 @@ Tkinter GUI for the stylized QR generator.
 - Live preview as you type or tweak options
 - All options from qr_gen_cli.py: styles, gradients (incl. rainbow), frame+label
 
-Requirements: pillow, qrcode. Optional: a TTF font for labels.
+Requirements: pillow, qrcode, qr_gen_cli.py in same dir. Optional: a TTF font for labels.
 """
 from __future__ import annotations
 
